@@ -1,0 +1,294 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.API\\CleanArchitectureWithCQRSandMediatR.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.API\\CleanArchitectureWithCQRSandMediatR.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.API\\CleanArchitectureWithCQRSandMediatR.API.csproj",
+        "projectName": "CleanArchitectureWithCQRSandMediatR.API",
+        "projectPath": "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.API\\CleanArchitectureWithCQRSandMediatR.API.csproj",
+        "packagesPath": "C:\\Users\\IroshanaRavi_nt4czoz\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\IroshanaRavi_nt4czoz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Application\\CleanArchitectureWithCQRSandMediatR.Application.csproj": {
+                "projectPath": "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Application\\CleanArchitectureWithCQRSandMediatR.Application.csproj"
+              },
+              "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Infrastucture\\CleanArchitectureWithCQRSandMediatR.Infrastucture.csproj": {
+                "projectPath": "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Infrastucture\\CleanArchitectureWithCQRSandMediatR.Infrastucture.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Application\\CleanArchitectureWithCQRSandMediatR.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Application\\CleanArchitectureWithCQRSandMediatR.Application.csproj",
+        "projectName": "CleanArchitectureWithCQRSandMediatR.Application",
+        "projectPath": "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Application\\CleanArchitectureWithCQRSandMediatR.Application.csproj",
+        "packagesPath": "C:\\Users\\IroshanaRavi_nt4czoz\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\IroshanaRavi_nt4czoz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Domain\\CleanArchitectureWithCQRSandMediatR.Domain.csproj": {
+                "projectPath": "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Domain\\CleanArchitectureWithCQRSandMediatR.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Domain\\CleanArchitectureWithCQRSandMediatR.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Domain\\CleanArchitectureWithCQRSandMediatR.Domain.csproj",
+        "projectName": "CleanArchitectureWithCQRSandMediatR.Domain",
+        "projectPath": "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Domain\\CleanArchitectureWithCQRSandMediatR.Domain.csproj",
+        "packagesPath": "C:\\Users\\IroshanaRavi_nt4czoz\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\IroshanaRavi_nt4czoz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Infrastucture\\CleanArchitectureWithCQRSandMediatR.Infrastucture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Infrastucture\\CleanArchitectureWithCQRSandMediatR.Infrastucture.csproj",
+        "projectName": "CleanArchitectureWithCQRSandMediatR.Infrastucture",
+        "projectPath": "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Infrastucture\\CleanArchitectureWithCQRSandMediatR.Infrastucture.csproj",
+        "packagesPath": "C:\\Users\\IroshanaRavi_nt4czoz\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Infrastucture\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\IroshanaRavi_nt4czoz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Application\\CleanArchitectureWithCQRSandMediatR.Application.csproj": {
+                "projectPath": "C:\\Personal\\Techs\\ASP.Net\\CleanArchitectureWithCQRSandMediatR\\CleanArchitectureWithCQRSandMediatR.Application\\CleanArchitectureWithCQRSandMediatR.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

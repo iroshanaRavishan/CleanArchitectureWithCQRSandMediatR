@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CleanArchitectureWithCQRSandMediatR.API.props" />
+</Project>
