@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureWithCQRSandMediatR.API", "CleanArchitectureWithCQRSandMediatR.API\CleanArchitectureWithCQRSandMediatR.API.csproj", "{7558A8FC-C57B-4040-A785-44198D39B9AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitectureWithCQRSandMediatR.API", "CleanArchitectureWithCQRSandMediatR.API\CleanArchitectureWithCQRSandMediatR.API.csproj", "{7558A8FC-C57B-4040-A785-44198D39B9AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureWithCQRSandMediatR.Application", "CleanArchitectureWithCQRSandMediatR.Application\CleanArchitectureWithCQRSandMediatR.Application.csproj", "{B8787CAB-2BAF-4B3C-B32C-B481B9263748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureWithCQRSandMediatR.Domain", "CleanArchitectureWithCQRSandMediatR.Domain\CleanArchitectureWithCQRSandMediatR.Domain.csproj", "{ABF88780-6F6B-4480-A5A0-3A16B871208E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7558A8FC-C57B-4040-A785-44198D39B9AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7558A8FC-C57B-4040-A785-44198D39B9AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7558A8FC-C57B-4040-A785-44198D39B9AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8787CAB-2BAF-4B3C-B32C-B481B9263748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8787CAB-2BAF-4B3C-B32C-B481B9263748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8787CAB-2BAF-4B3C-B32C-B481B9263748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8787CAB-2BAF-4B3C-B32C-B481B9263748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF88780-6F6B-4480-A5A0-3A16B871208E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF88780-6F6B-4480-A5A0-3A16B871208E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF88780-6F6B-4480-A5A0-3A16B871208E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF88780-6F6B-4480-A5A0-3A16B871208E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
