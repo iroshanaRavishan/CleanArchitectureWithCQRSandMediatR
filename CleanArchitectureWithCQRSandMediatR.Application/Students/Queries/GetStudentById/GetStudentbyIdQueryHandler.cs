@@ -20,7 +20,7 @@ namespace CleanArchitectureWithCQRSandMediatR.Application.Students.Queries.GetSt
         }
         public async Task<StudentViweModel> Handle(GetStudentByIdQuery request, CancellationToken cancellationToken)
         {
-            var student = await _studentRepository.GetStudentByIdAsync(request.StudentId);
+            var student = await _studentRepository.GetStudentByIdAsync(request.Id);
             return _mapper.Map<StudentViweModel>(student);
         }
     }

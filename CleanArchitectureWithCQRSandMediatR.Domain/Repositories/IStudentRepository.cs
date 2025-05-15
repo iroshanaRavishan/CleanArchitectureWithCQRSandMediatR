@@ -13,7 +13,7 @@ namespace CleanArchitectureWithCQRSandMediatR.Domain.Repositories
         Task<Student> GetStudentByIdAsync(int id);
         Task<Student> GetStudentByNameAsync(string name);
         Task<Student> GetStudentByEmailAsync(string email);
-        Task<Student> CreateAsync(Student student);
+        Task<Student> AddAsync(Student student);
         Task<int> UpdateAsync(int id, Student student);
         Task<int> DeleteAsync(int id);
     }

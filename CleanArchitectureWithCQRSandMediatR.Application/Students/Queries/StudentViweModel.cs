@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArchitectureWithCQRSandMediatR.Application.Students.Queries.GetStudentById
+namespace CleanArchitectureWithCQRSandMediatR.Application.Students.Queries
 {
     public class StudentViweModel : IMapFrom<Student>
     {
