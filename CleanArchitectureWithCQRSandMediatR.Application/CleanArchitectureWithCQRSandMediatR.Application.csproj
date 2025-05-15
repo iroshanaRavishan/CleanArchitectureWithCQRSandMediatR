@@ -15,6 +15,7 @@
   <ItemGroup>
     <Folder Include="Common\Exceptions\" />
     <Folder Include="Common\Behaviours\" />
+    <Folder Include="Students\Queries\GetStudentByEmail\" />
   </ItemGroup>
 
   <ItemGroup>
