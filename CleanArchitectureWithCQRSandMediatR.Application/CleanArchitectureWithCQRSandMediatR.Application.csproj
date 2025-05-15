@@ -7,14 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Blogs\Commands\CreateBlog\" />
-    <Folder Include="Blogs\Commands\DeleteBlog\" />
-    <Folder Include="Blogs\Commands\UpdateBlog\" />
-    <Folder Include="Blogs\Queries\GetAllBlogs\" />
-    <Folder Include="Blogs\Queries\GetBlogById\" />
+    <Compile Remove="Blogs\**" />
+    <EmbeddedResource Remove="Blogs\**" />
+    <None Remove="Blogs\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Common\Exceptions\" />
     <Folder Include="Common\Behaviours\" />
-    <Folder Include="Common\Mappings\" />
   </ItemGroup>
 
   <ItemGroup>
