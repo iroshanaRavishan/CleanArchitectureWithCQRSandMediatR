@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitectureWithCQRSandMediatR.Domain.Repositories
 {
-    public interface IStudent
+    public interface IStudentRepository
     {
         Task<List<Student>> GetAllStudentAsync();
         Task<Student> GetStudentByIdAsync(int id);
