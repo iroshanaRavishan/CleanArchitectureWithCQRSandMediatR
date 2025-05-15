@@ -9,6 +9,6 @@ namespace CleanArchitectureWithCQRSandMediatR.Application.Students.Queries.GetSt
 {
     public class GetStudentByIdQuery : IRequest<StudentViweModel>
     {
-        public int StudentId { get; set; }
+        public int Id { get; set; }
     }
 }
