@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using CleanArchitectureWithCQRSandMediatR.Application.Students.Queries.GetStudentById;
 using CleanArchitectureWithCQRSandMediatR.Application.Students.Queries.GetStudentbyName;
 using CleanArchitectureWithCQRSandMediatR.Domain.Repositories;
 using MediatR;
