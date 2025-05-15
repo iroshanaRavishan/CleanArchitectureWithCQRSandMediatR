@@ -1,6 +1,13 @@
+using CleanArchitectureWithCQRSandMediatR.Application;
+using CleanArchitectureWithCQRSandMediatR.Infrastucture;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+// Adding layer dependancy
+builder.Services.AddApplicationServices();
+builder.Services.AddInfrastructureServices(builder.Configuration);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

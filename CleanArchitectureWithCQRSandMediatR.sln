@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureWithCQRSan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureWithCQRSandMediatR.Domain", "CleanArchitectureWithCQRSandMediatR.Domain\CleanArchitectureWithCQRSandMediatR.Domain.csproj", "{ABF88780-6F6B-4480-A5A0-3A16B871208E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureWithCQRSandMediatR.Infrastucture", "CleanArchitectureWithCQRSandMediatR.Infrastucture\CleanArchitectureWithCQRSandMediatR.Infrastucture.csproj", "{53EB463D-C512-4386-88F5-1E5C956758F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{ABF88780-6F6B-4480-A5A0-3A16B871208E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABF88780-6F6B-4480-A5A0-3A16B871208E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABF88780-6F6B-4480-A5A0-3A16B871208E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EB463D-C512-4386-88F5-1E5C956758F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EB463D-C512-4386-88F5-1E5C956758F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EB463D-C512-4386-88F5-1E5C956758F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EB463D-C512-4386-88F5-1E5C956758F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
