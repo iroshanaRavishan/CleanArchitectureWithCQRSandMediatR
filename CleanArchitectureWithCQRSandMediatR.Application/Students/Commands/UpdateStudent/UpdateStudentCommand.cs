@@ -27,7 +27,6 @@ namespace CleanArchitectureWithCQRSandMediatR.Application.Students.Commands.Upda
         public string GuardianEmail { get; set; }
         public string RelationshipToStudent { get; set; }
         public bool IsActive { get; set; }
-        public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
     }
 }

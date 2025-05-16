@@ -43,7 +43,7 @@ namespace CleanArchitectureWithCQRSandMediatR.Infrastucture.Repository
 
         public async Task<Student> GetStudentByIdAsync(int id)
         {
-            return await _studentDbContext.Students.AsNoTracking().FirstAsync(model => model.Id == id);
+            return await _studentDbContext.Students.AsNoTracking().FirstOrDefaultAsync(model => model.Id == id);
         }
 
         public async Task<Student> GetStudentByNameAsync(string name)
