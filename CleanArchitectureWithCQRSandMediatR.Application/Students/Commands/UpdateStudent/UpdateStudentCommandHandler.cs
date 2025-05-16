@@ -21,7 +21,6 @@ namespace CleanArchitectureWithCQRSandMediatR.Application.Students.Commands.Upda
         {
             var studentEntity = new Student()
             {
-                Id = request.Id,
                 FirstName = request.FirstName,
                 LastName = request.LastName,
                 Gender = request.Gender,
@@ -38,7 +37,6 @@ namespace CleanArchitectureWithCQRSandMediatR.Application.Students.Commands.Upda
                 GuardianEmail = request.GuardianEmail,
                 RelationshipToStudent = request.RelationshipToStudent,
                 IsActive = request.IsActive,
-                CreatedAt = request.CreatedAt,
                 UpdatedAt = request.UpdatedAt,
             };
             return await _studentRepository.UpdateAsync(request.Id, studentEntity);
