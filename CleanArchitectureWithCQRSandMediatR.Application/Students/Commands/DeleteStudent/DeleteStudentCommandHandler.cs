@@ -1,4 +1,6 @@
-﻿using CleanArchitectureWithCQRSandMediatR.Domain.Repositories;
+﻿using CleanArchitectureWithCQRSandMediatR.Application.Common.Exceptions;
+using CleanArchitectureWithCQRSandMediatR.Domain.Entities;
+using CleanArchitectureWithCQRSandMediatR.Domain.Repositories;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -18,6 +20,10 @@ namespace CleanArchitectureWithCQRSandMediatR.Application.Students.Commands.Dele
         }
         public async Task<int> Handle(DeleteStudentCommand request, CancellationToken cancellationToken)
         {
+            var existingStudent = await _studentRepository.GetStudentByIdAsync(request.Id);
+            if (existingStudent == null)
+                throw new NotFoundException(nameof(Student), request.Id);
+
             return await _studentRepository.DeleteAsync(request.Id);
         }
     }

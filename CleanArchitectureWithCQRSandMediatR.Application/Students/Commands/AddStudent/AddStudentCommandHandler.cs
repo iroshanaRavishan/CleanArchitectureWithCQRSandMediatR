@@ -46,7 +46,7 @@ namespace CleanArchitectureWithCQRSandMediatR.Application.Students.Commands.AddS
                 UpdatedAt = request.UpdatedAt,
             };
 
-            var result = await _studentRepository.CreateAsync(studentEntity);
+            var result = await _studentRepository.AddAsync(studentEntity);
             return _mapper.Map<Student>(result);
         }
     }
