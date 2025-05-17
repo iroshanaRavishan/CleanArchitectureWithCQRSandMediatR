@@ -9,5 +9,5 @@ namespace CleanArchitectureWithCQRSandMediatR.Application.Students.Queries.GetSt
 {
     public class GetAllStudentsQuery : IRequest<List<StudentViweModel>> {}
 
-    // public record GetBlogQuery : IRequest<List<StudentViweModel>>; ->  this is another way to do this
+    // public record GetAllStudentsQuery : IRequest<List<StudentViweModel>>; ->  this is another way to do this
 }
