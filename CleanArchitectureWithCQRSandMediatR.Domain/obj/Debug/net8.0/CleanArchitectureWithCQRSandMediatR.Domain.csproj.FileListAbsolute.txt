@@ -1,0 +1,13 @@
+C:\Personal\Techs\ASP.Net\CleanArchitectureWithCQRSandMediatR\CleanArchitectureWithCQRSandMediatR.Domain\bin\Debug\net8.0\CleanArchitectureWithCQRSandMediatR.Domain.deps.json
+C:\Personal\Techs\ASP.Net\CleanArchitectureWithCQRSandMediatR\CleanArchitectureWithCQRSandMediatR.Domain\bin\Debug\net8.0\CleanArchitectureWithCQRSandMediatR.Domain.dll
+C:\Personal\Techs\ASP.Net\CleanArchitectureWithCQRSandMediatR\CleanArchitectureWithCQRSandMediatR.Domain\bin\Debug\net8.0\CleanArchitectureWithCQRSandMediatR.Domain.pdb
+C:\Personal\Techs\ASP.Net\CleanArchitectureWithCQRSandMediatR\CleanArchitectureWithCQRSandMediatR.Domain\obj\Debug\net8.0\CleanArchitectureWithCQRSandMediatR.Domain.csproj.AssemblyReference.cache
+C:\Personal\Techs\ASP.Net\CleanArchitectureWithCQRSandMediatR\CleanArchitectureWithCQRSandMediatR.Domain\obj\Debug\net8.0\CleanArchitectureWithCQRSandMediatR.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\Techs\ASP.Net\CleanArchitectureWithCQRSandMediatR\CleanArchitectureWithCQRSandMediatR.Domain\obj\Debug\net8.0\CleanArchitectureWithCQRSandMediatR.Domain.AssemblyInfoInputs.cache
+C:\Personal\Techs\ASP.Net\CleanArchitectureWithCQRSandMediatR\CleanArchitectureWithCQRSandMediatR.Domain\obj\Debug\net8.0\CleanArchitectureWithCQRSandMediatR.Domain.AssemblyInfo.cs
+C:\Personal\Techs\ASP.Net\CleanArchitectureWithCQRSandMediatR\CleanArchitectureWithCQRSandMediatR.Domain\obj\Debug\net8.0\CleanArchitectureWithCQRSandMediatR.Domain.csproj.CoreCompileInputs.cache
+C:\Personal\Techs\ASP.Net\CleanArchitectureWithCQRSandMediatR\CleanArchitectureWithCQRSandMediatR.Domain\obj\Debug\net8.0\CleanArchitectureWithCQRSandMediatR.Domain.sourcelink.json
+C:\Personal\Techs\ASP.Net\CleanArchitectureWithCQRSandMediatR\CleanArchitectureWithCQRSandMediatR.Domain\obj\Debug\net8.0\CleanArchitectureWithCQRSandMediatR.Domain.dll
+C:\Personal\Techs\ASP.Net\CleanArchitectureWithCQRSandMediatR\CleanArchitectureWithCQRSandMediatR.Domain\obj\Debug\net8.0\refint\CleanArchitectureWithCQRSandMediatR.Domain.dll
+C:\Personal\Techs\ASP.Net\CleanArchitectureWithCQRSandMediatR\CleanArchitectureWithCQRSandMediatR.Domain\obj\Debug\net8.0\CleanArchitectureWithCQRSandMediatR.Domain.pdb
+C:\Personal\Techs\ASP.Net\CleanArchitectureWithCQRSandMediatR\CleanArchitectureWithCQRSandMediatR.Domain\obj\Debug\net8.0\ref\CleanArchitectureWithCQRSandMediatR.Domain.dll
